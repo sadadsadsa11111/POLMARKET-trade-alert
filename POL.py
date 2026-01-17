@@ -7,9 +7,9 @@ from typing import Dict, Any, List
 # ================== 配置区 ==================
 
 API_URL = "https://data-api.polymarket.com/positions"
-USER_ADDRESS = "0x06e19226b7bc9b63093f6E97FfE79496326A696E"
+USER_ADDRESS = "" #POLYMARKET钱包地址
 
-FEISHU_WEBHOOK = "https://open.feishu.cn/open-apis/bot/v2/hook/46d1bd8d-e6d8-4224-96ea-54ad61cac28b"
+FEISHU_WEBHOOK = ""
 
 STATE_FILE = "state.json"
 POLL_INTERVAL = 30  # 秒
@@ -191,4 +191,5 @@ def main():
         time.sleep(POLL_INTERVAL)
 
 if __name__ == "__main__":
+
     main()
