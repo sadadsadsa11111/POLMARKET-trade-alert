@@ -1,3 +1,4 @@
-# POLMARKET-trade-alert
+# POLMARKET-trade-alert AI生成的简单提醒工具
+1填入监视地址 2填入飞书weh 3设置容忍阈值（太小的成交额不提醒） 4运行
 功能：POLYMARKET监视地址的新开单、加/减仓、平仓均会发至飞书提醒
 可用于提醒自己挂单成交状况、监控大户持仓动向进行手动跟单
